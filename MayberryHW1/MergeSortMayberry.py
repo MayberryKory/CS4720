@@ -11,6 +11,7 @@ import time
 def merge_sort(arr):
     if len(arr) > 1:
         mid = len(arr) // 2 # Do integer division on the length of the array
+        # cut the array from the central index and assign to left and right variables
         L = arr[:mid]
         R = arr[mid:]
 
@@ -23,6 +24,7 @@ def merge_sort(arr):
 
 
 def merge(L, R, arr):
+    # loop controls
     i = j = k = 0
 
     # Merge elements from L and R into arr
