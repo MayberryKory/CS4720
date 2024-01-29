@@ -1,3 +1,10 @@
+"""
+Kory Mayberry
+CS 4720 Design and Analysis of Algorithms
+Homework 1
+Merge Sort vs. Bubble Sort
+"""
+
 import time
 
 
@@ -31,6 +38,7 @@ def read_file(file_path):
 file_path = input("Enter your file path: ")
 
 array_to_sort = read_file(file_path)
+print("Kory Mayberry Bubble Sort Solution")
 if array_to_sort:
     print("Original Array:", array_to_sort)
     print("\nSorting.......")
